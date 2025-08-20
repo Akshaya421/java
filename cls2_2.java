@@ -1,11 +1,13 @@
 import java.util.*;
-public class cls2_2 {
+public class p1 {
     Scanner s = new Scanner(System.in);
-    System.out.print("enter the size of an array:");
-    int n=s.nextInt();
-    int arr[]=new int[n];
-    System.out.print("enter the array elements:");
-    for(int i=0; i<n; i++){
-        arr[i]=s.nextInt();
+    System.out.println("enter the year:");
+    int year=s.newInt();
+    if((year%4==0 && year %100!=0)&& year %400==0){
+        System.out.println("It is leap year");
+    }else{
+        System.out.println("It is  not a leap year");
     }
+
 }
+
