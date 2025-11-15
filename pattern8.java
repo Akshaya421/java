@@ -17,7 +17,15 @@ public class pattern8 {
         
         System.out.println(" ");
     } 
+      /*
+    a 
+   aba 
+  abcba 
+ abcdcba 
+abcdedcba 
+      */
     
 }
 
 } 
+
