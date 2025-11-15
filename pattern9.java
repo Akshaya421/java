@@ -21,4 +21,12 @@ public class pattern9 {
 }
 
 }
+/*
+abcdedcba 
+ abcdcba 
+  abcba 
+   aba 
+    a 
+*/
  
+
